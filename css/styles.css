@@ -1,0 +1,225 @@
+:root{
+    --main-title-color:#FFFFFF;
+    --second-title-color:#212121;
+    --main-text-color:#757575; 
+    --second-text-color:#FFFFFF;
+    --accent-color: #2196F3;
+    --main-btn-color: #FFFFFF;
+    --header-text-color: #212121;
+    --hero-btn: #212121;
+}
+
+
+body {
+    font-family: Roboto ,sans-serif;
+}
+
+
+
+.list {
+    list-style: none;
+}
+
+
+
+.link {
+    text-decoration: none; 
+}
+
+
+
+/*--------------header--------------------------------------------*/
+
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color)
+}
+
+    .header-link:focus,
+    .header-link:hover {
+    color: var(--accent-color);
+}
+
+
+
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color)
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+
+
+/*------------hero-----------------------------------------------*/
+
+
+
+.hero {
+    background-color: var(--main-text-color);
+}
+
+
+
+.hero-btn {
+    font-weight: 700;
+    line-height: 1.87;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-btn-color)
+}
+
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+}
+
+.hero-link:focus,
+.hero-link:hover {
+color: var(--accent-color);
+}
+
+
+
+
+/*------------about------------------------*/
+
+
+.about-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color)
+}
+
+.about-text {
+    font-weight:400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)    
+}
+
+/*------------about-second---------------------------*/
+
+.about-second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
+
+/*-----------about-command---------------------*/
+
+.about-command-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
+
+.about-command-title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
+
+.about-command-speciality {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
+
+
+/*-----------contacts---------------------*/
+
+.contacts {
+    background-color: var(--main-text-color);
+}
+.contacts-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-link-address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+
+
+   /*-----------portfolio---------------------*/ 
+   /*-----------hero---------------------*/
+
+    .hero-second {
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--hero-btn)
+    }
+
+      /*-----------about---------------------*/
+.about-second-title {
+    font-style: 400;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color)
+}
+
+
+.about-second-text {
+    font-style: 400;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
